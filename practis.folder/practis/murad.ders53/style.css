@@ -1,0 +1,37 @@
+.bashliq {
+    font-size: 45px;
+
+}
+
+.navBar {
+    font-size: 25px;
+    color: white;
+    background-color: rgb(182, 48, 48);
+    
+    padding: 10px;
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    justify-content: space-around;
+
+}
+
+
+
+.image {
+    height: 200px;
+    float: left;
+}
+
+.ggg {
+    overflow: auto;
+}
+
+.rrr {
+    color: rgb(255, 0, 0);
+}
+.ppp{text-align: start; }
+
+.paragraf{ border-top: 4px gray solid;}
+
+.paragraf-2{ margin-left:100px;}

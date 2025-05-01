@@ -1,0 +1,15 @@
+ul {
+    background-color: green;display: flex;
+}
+
+ul li:hover {
+    background-color: rgb(15, 56, 15);
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 20px;
+    
+    padding:10px ;
+    margin: px;
+}
