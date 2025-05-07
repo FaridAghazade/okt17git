@@ -211,23 +211,28 @@
 
         .plm {
             height: 200px;
-            width: auto;
+            width: 100%;
+            object-fit: cover;
         }
 
         .pi {
             display: flex;
             align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        .pi div {
+            width:45%;
+        
         }
 
         .messi {
-            margin-left: 350px;
+            /* margin-left: 350px; */
             padding: 20px;
         }
 
-        .ronaldo {
-            margin-right: 230px;
-
-        }
 
         .folder {
             height: 200px;
@@ -240,16 +245,13 @@
         }
 
         .oiu {
-            margin-left: 350px;
+
             padding: 20px;
 
 
         }
 
-        .rfv {
-            margin-right: 250px;
-        }
-
+        
         .tgb {
             display: flex;
             align-items: center;
@@ -272,8 +274,11 @@
             align-items: center;
 
         }
-        .social-icons{height: 120px;
-        width: auto;}
+
+        .social-icons {
+            height: 120px;
+            width: auto;
+        }
 
         .fvf {
             color: white;
@@ -294,7 +299,7 @@
             color: white;
             text-align: center;
             padding: 40px 0;
-            
+
         }
 
         .footer-text {
@@ -310,14 +315,13 @@
 
         .social-icons i {
             margin: 0 15px;
-            cursor: pointer;
+
             transition: color 0.3s;
         }
 
         .social-icons i:hover {
             color: #888;
         }
-        
     </style>
 </head>
 
@@ -405,48 +409,53 @@
                     The popularity of programming languages change, and there is no guarantee that what we <br>
                     learn today will be used in <br> the future.</p>
             </div>
-            <div class="pi">
-                <div class="messi">
-                    <img class="pj" src="https://bakucode.az/wp-content/uploads/2022/10/Q1.webp" alt="">
-                    <h4>Programming for Kids</h4>
-                    <h6>Scratch / HTML / CSS / Javascript / Java Core and Java Spring Boot</h6>
-                    <p>Code one of the most important skills to learn!</p>
-                </div>
-                <div class="ronaldo">
-                    <img class="plm" src="https://bakucode.az/wp-content/uploads/2022/10/Q2.webp" alt="">
-                    <h4>Frontend Development Course</h4>
-                    <h6>HTML5, CSS3, Bootstrap 5, JavaScript, React-Redux</h6>
-                    <p>You will learn complete front-end web development from scratch.</p>
-                </div>
-            </div>
-            <div class="tgb">
-                <div class="oiu">
-                    <img class="folder" src="https://bakucode.az/wp-content/uploads/2022/10/Q3.webp" alt="">
-                    <h4>Backend Development Course</h4>
-                    <h6>Java Programming Languages / <br> Python Programming Languages/ C# Programming <br>
-                        Languages</h6>
-                    <p>You will Learn best practices from a professional developers. <br>
-                        – Learn the core Java skills needed to apply for positions. <br>
-                        – Be able to program in Python professionally.</p>
-                </div>
-                <div class="rfv">
-                    <img class="teryaki" src="https://bakucode.az/wp-content/uploads/2022/10/Q4.webp" alt="">
-                    <h4>Oracle Database PL/SQL Fundamentals</h4>
-                    <h6>Database Basics, Single Table Queries, Grouping <br> Functions, Multi Table Queries,
-                        Creating,<br>
-                        Altering and Updating Objects and etc.</h6>
-                    <p>You will Learn Program in the SQL Language to Solve <br> a Variety of Database Problems. <br>
-                        Become a SQL Ninja and Understand How the Oracle <br> Database Works.
-                    </p>
+            <div>
+                <div class="pi">
+                    <div class="messi">
+                        <img class="pj" src="https://bakucode.az/wp-content/uploads/2022/10/Q1.webp" alt="">
+                        <h4>Programming for Kids</h4>
+                        <h6>Scratch / HTML / CSS / Javascript / Java Core and Java Spring Boot</h6>
+                        <p>Code one of the most important skills to learn!</p>
+                    </div>
+                    <div class="ronaldo">
+                        <img class="plm" src="https://bakucode.az/wp-content/uploads/2022/10/Q2.webp" alt="">
+                        <h4>Frontend Development Course</h4>
+                        <h6>HTML5, CSS3, Bootstrap 5, JavaScript, React-Redux</h6>
+                        <p>You will learn complete front-end web development from scratch.</p>
+                    </div>
+
+
+                    <div class="oiu">
+                        <img class="folder" src="https://bakucode.az/wp-content/uploads/2022/10/Q3.webp" alt="">
+                        <h4>Backend Development Course</h4>
+                        <h6>Java Programming Languages / <br> Python Programming Languages/ C# Programming <br>
+                            Languages</h6>
+                        <p>You will Learn best practices from a professional developers. <br>
+                            – Learn the core Java skills needed to apply for positions. <br>
+                            – Be able to program in Python professionally.</p>
+                    </div>
+                    <div class="rfv">
+                        <img class="teryaki" src="https://bakucode.az/wp-content/uploads/2022/10/Q4.webp" alt="">
+                        <h4>Oracle Database PL/SQL Fundamentals</h4>
+                        <h6>Database Basics, Single Table Queries, Grouping <br> Functions, Multi Table Queries,
+                            Creating,<br>
+                            Altering and Updating Objects and etc.</h6>
+                        <p>You will Learn Program in the SQL Language to Solve <br> a Variety of Database Problems. <br>
+                            Become a SQL Ninja and Understand How the Oracle <br> Database Works.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer">
         <p class="footer-text">FOLLOW US ON SOCIAL MEDIA</p>
-        
+        <div>
 
-        
+        </div>
+
+
+
 
 
     </footer>
