@@ -8,9 +8,14 @@
     <style>
         form {
             margin-left: 50px;
+            padding: 15px;
+        }
+        label{
+            display: inline-block;
+            width: 150px;
         }
 
-        .messi {
+        /* .messi {
             margin-left: 30px;
         }
 
@@ -29,40 +34,56 @@
         .yh {
             margin-left: 40px;
         }
-        .messu{margin-left: 40px;}
+
+        .messu {
+            margin-left: 40px;
+        }
+
+        form {
+            margin-left: 60p;
+        } */
+
+        /* .messui input {
+            margin-left: 50px;
+        } */
     </style>
 </head>
 
 <body>
     <form action="">
-        <div class="yh">
-            <label for="mess">first name:</label>
-            <input name="mess" id="mess" type="text"><br><br>
-        </div>
-        <br>
-        <div class="messu">
-            <label for="last">last name:</label>
-            <input type="text" id="last"><br><br>
-        </div>
-        <br>
-        <div class="an">
-            <label for="date">date of birth:</label>
-            <input type="text" id="date"><br><br>
-        </div>
-        <br>
-        <div class="ron">
-            <label for="email">email id:</label>
-            <input class="messi" type="text" id="email"><br><br>
-        </div>
-        <br>
-        <div>
-            <label for="mobile">mobile number:</label>
-            <input type="text" id="mobile"><br><br>
-        </div>
+        <div class="messui">
+            
+                <label for="mess">first name:</label>
+            <input name="mess" id="mess" type="text" required><br><br>
 
-        <input type="submit" name="" id="">
 
-        <input type="reset">
+           
+                <label for="last">last name:</label>
+          
+            <input type="text" id="last" required><br><br>
+
+
+           
+                <label for="date">date of birth:</label>
+           
+            <input type="text" id="date" required><br><br>
+
+
+          
+                <label for="email">email id:</label>
+            
+            <input class="messi" type="text" id="email" required><br><br>
+
+
+            
+                <label for="mobile">mobile number:</label>
+            <input type="text" id="mobile" required><br><br>
+
+
+            <input type="submit" name="" id="">
+
+            <input type="reset">
+        </div>
     </form>
 </body>
 
