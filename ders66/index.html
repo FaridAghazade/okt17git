@@ -28,10 +28,14 @@
         }
 
         .name {
-            display: flex;
+            display:flex;
             align-items: center;
-            justify-content: space-evenly;
-            margin-bottom: 20px;
+        justify-content:space-between;
+        /* gap: 140px; */
+        
+            margin-left: 50px;
+      
+
         }
 
         input[type="email"] {
@@ -66,14 +70,26 @@
         .emai input {
             width: 700px;
         }
-        .day{margin: 20px;}
-        .end{display: flex;
-        align-items: center;
-    justify-content: center;}
-    input[type="month"]{
-        display: inline-block;
-        margin: 20px;
-    }
+
+        .day {
+            margin: 20px;
+        }
+
+        .end {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input[type="month"] {
+            display: inline-block;
+            margin: 20px;
+        }
+        .ending{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+        }
     </style>
 </head>
 
@@ -82,7 +98,7 @@
     <div class="registriation">
         <p>online registriation</p>
     </div>
-    <form action="">
+    <form action="" autocomplete="off">
 
         <div class="name">
             <div>
@@ -114,7 +130,9 @@
                 <input type="text" name="" id="physical">
             </div>
         </div>
-        <label style="text-align: center;" for="">date:</label><br>
+        <div class="ending">
+            <label style="text-align: center;" for="">date:</label><br>
+        </div>
         <div class="end">
             <label style="margin: 20px;" for="">day:</label>
 
@@ -178,6 +196,7 @@
 
             </select>
         </div>
+
     </form>
 </body>
 
