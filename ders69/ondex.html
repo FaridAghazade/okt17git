@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/943d87bd3c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        .navbar {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 5px 10px 0 rgba(50, 50, 50, 0.06);
+
+
+        }
+
+
+        ul li {
+            list-style-type: none;
+            padding: 5px 15px;
+            margin: 10px;
+        }
+
+        .element {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            margin-right: 100px;
+
+        }
+
+        .element li:hover {
+            border-bottom: 2px solid black;
+
+        }
+
+        .header {
+            font-size: 40px;
+            color: purple;
+        }
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .text {
+            font-size: x-large;
+            color: gray;
+            text-align: center;
+            
+        }
+
+        .small {
+            text-align: center;
+            font-size: x-small;
+            color: gray;
+        }
+
+        button {
+
+            background-color: black;
+            color: white;
+            border-radius: 50px;
+            width: 70px;
+            padding: 5px;
+
+        }
+
+        .re {
+            display: flex;
+            justify-content: center;
+        }
+
+        .main {
+            background-image: url(https://sb.ecobnb.net/app/uploads/sites/3/2022/04/copertina-1.jpg);
+            background-position: 0;
+            height: 400px;
+            margin-bottom: 50px;
+
+        }
+
+        .shrift {
+            padding-top: 100px;
+        }
+
+        button:hover {
+            color: aqua;
+
+        }
+
+        .edc {
+            font-size: larger;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 50px;
+            margin-left: 20px;
+        }
+        .footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+           
+        }
+        @media screen  and (max-width:1200px) {
+            .footer{
+                
+                flex-direction: column;
+               
+               
+            }
+        }
+        @media  screen and (max-width:800px) {
+            .main{
+                background-image: url(https://cdn.britannica.com/81/100281-050-5FDC2E15/Rain-shaft-Man-of-War-Bay-Trinidad.jpg);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <span class="header">minima</span>
+        <ul class="element">
+            <li>service</li>
+            <li>our story</li>
+            <li>work</li>
+            <li>journal</li>
+            <li>contact</li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="shrift">
+            <p class="text">minima clean and minimal template</p>
+            <p class="small">Lorem ipsum dolor sit</p>
+        </div>
+        <div class="re">
+            <button>start here</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div><i class="fa-solid fa-mug-hot edc"></i>
+            <p>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Aperiam <br> voluptas explicabo, <br> sunt
+                possimus beatae iure <br> nesciunt totam numquam error aspernatur <br> laudantium nihil quam
+                voluptatibus, <br> nisi tenetur quas, temporibus alias <br> consectetur?</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-clock edc"></i>
+             <p>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Aperiam <br> voluptas explicabo, <br> sunt
+                possimus beatae iure <br> nesciunt totam numquam error aspernatur <br> laudantium nihil quam
+                voluptatibus, <br> nisi tenetur quas, temporibus alias <br> consectetur?</p>
+        </div>
+        <div>
+<i class="fa-solid fa-image edc"></i>
+<p>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Aperiam <br> voluptas explicabo, <br> sunt
+                possimus beatae iure <br> nesciunt totam numquam error aspernatur <br> laudantium nihil quam
+                voluptatibus, <br> nisi tenetur quas, temporibus alias <br> consectetur?</p>
+        </div>
+    </div>
+</body>
+
+</html>
