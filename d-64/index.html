@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/943d87bd3c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+
+
+
+        }
+
+        h2 {
+            color: aqua;
+        }
+
+        .nav {
+            list-style-type: none;
+            display: flex;
+            width: 200px;
+            justify-content: space-around;
+            color: aqua;
+        }
+
+        .nav li:hover {
+            border-bottom: 2px solid aqua;
+        }
+
+        .name {
+            color: rgb(255, 255, 255);
+            font-size: xx-large;
+            padding: 20px;
+        }
+
+        .main {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            padding-top: 60px;
+        }
+        .outer-div{
+            background-image: url(https://images.photowall.com/products/73806/foggy-forest-grey.jpg?h=699&q=85);
+            height: 350px;
+            background-position: 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .red{
+            text-align: center;
+            color: gray;
+        }
+        .edc{
+            font-size: xx-large;
+            
+            
+        }
+        .esx{
+            display: grid;
+            grid-template-columns: repeat(3,auto);
+           gap: 100px;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="outer-div">
+        <div class="header">
+            <h2>instant</h2>
+            <ul class="nav">
+                <li>home</li>
+                <li>works</li>
+                <li>about</li>
+            </ul>
+        </div>
+        <div class="main">
+            <p>hello people my name is</p>
+            <h1 class="name">FARID AGHAZADA</h1>
+            <p>web designer developer and game addict</p>
+        </div>
+    </div>
+    <div class="footer">
+          <h1 class="red">my portfolio</h1>
+        <div class="esx">
+        <i class="fa-solid fa-circle-user edc"></i>
+        <i class="fa-solid fa-image edc"></i>
+        <i class="fa-solid fa-file edc"></i>
+        <i class="fa-solid fa-camera edc"></i>
+        <i class="fa-solid fa-calendar edc"></i>
+        <i class="fa-solid fa-house edc"></i>
+        </div>
+    </div>
+</body>
+
+</html>
