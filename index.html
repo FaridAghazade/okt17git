@@ -1,48 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-       .lorem::after, .lorem::before{
-        content:"farid";
-        
-
-       }
-       .lorem::first-letter{
-
-        color: red;
-
-       }
-      
-       .lorem::first-line{
-        color: blue;
-       }
-       .lorem::after{
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      .lorem::after,
+      .lorem::before {
          content: "farid";
-         color:aqua;
 
-       
-       }
-       .lorem::before{
-         content:"developia" ;
+
+      }
+
+      .lorem::first-letter {
+
+         color: red;
+
+      }
+
+      .lorem::first-line {
+         color: blue;
+      }
+
+      .lorem::after {
+         content: "farid";
+         color: aqua;
+
+
+      }
+
+      .lorem::before {
+         content: "developia";
          background-color: blue;
          color: black;
          border: 2px solid gold;
-       }
-       ::selection{
+      }
+
+      ::selection {
          color: white;
          background: black;
-       }
-       
-    </style>
+      }
+      a[target=_blank]{
+         color: red;
+         text-decoration: none;
+      }
+      h1[class|=top]{
+         border: 2px solid salmon;
+         color: aqua;
+         width: 100px;
+      }
+      h3[class$=test]{
+         font-family: sans-serif;
+         color: green;
+         background-color: violet;
+         width: 50px;
+      }
+      
+h1,h3[class*=te]{
+   background-color: yellow;
+   display: inline;
+}
+   </style>
 
 </head>
-<body>
-   <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, sequi. Asperiores voluptates sit dolore, ad nihil eos, maiores commodi hic quibusdam incidunt, quo veritatis facere pariatur illum neque tempora dolorum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, mollitia cumque non fuga veniam necessitatibus quia est porro nobis voluptas temporibus adipisci numquam sed minima nulla error voluptate in maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eaque quaerat itaque dolore quis corrupti fuga, animi assumenda fugit ullam corporis rem. Atque praesentium quidem quam sapiente temporibus nam nostrum.</p>
 
-   
+<body>
+   <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, sequi. Asperiores voluptates sit
+      dolore, ad nihil eos, maiores commodi hic quibusdam incidunt, quo veritatis facere pariatur illum neque tempora
+      dolorum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, mollitia cumque non fuga veniam
+      necessitatibus quia est porro nobis voluptas temporibus adipisci numquam sed minima nulla error voluptate in
+      maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eaque quaerat itaque dolore quis corrupti
+      fuga, animi assumenda fugit ullam corporis rem. Atque praesentium quidem quam sapiente temporibus nam nostrum.</p>
+   <a href="#" target="_blank">netflix</a>
+   <a href="#" target="_self">amazon</a>
+   <a href="#" target="_parent">disney</a>
+
+   <h1 class="topping">1</h1>
+   <h1 class="tep-corner">2</h1>
+   <h1 class="top-head">3</h1>
+
+   <h3 class="h-test">helo</h3>
+   <h3 class="h-tst">hola</h3>
+   <h3 class="h-test">salam</h3>
+
+
 
 </body>
+
 </html>
