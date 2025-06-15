@@ -18,7 +18,7 @@
          color: red;
 
       }
-
+                                                                                                                           
       .lorem::first-line {
          color: blue;
       }
@@ -31,8 +31,13 @@
       }
 
       .lorem::before {
-         content: "developia";
-         background-color: blue;
+         content: url("https://i.pinimg.com/originals/aa/f7/f2/aaf7f2bb862a0004acad5bff2b08d927.gif");
+         width: 20px;
+         height:100px;
+         display: inline-block;
+         
+      
+
          color: black;
          border: 2px solid gold;
       }
@@ -41,26 +46,30 @@
          color: white;
          background: black;
       }
-      a[target=_blank]{
+
+      a[target=_blank],[class|=top] {
          color: red;
          text-decoration: none;
       }
-      h1[class|=top]{
+
+      h1 {
          border: 2px solid salmon;
          color: aqua;
-         width: 100px;
+         width: 50px;
       }
-      h3[class$=test]{
+
+      h3[class$=test] {
          font-family: sans-serif;
          color: green;
          background-color: violet;
+         width: 20px;
+      }
+
+      h1,
+      h3[class*=te] {
+         background-color: yellow;
          width: 50px;
       }
-      
-h1,h3[class*=te]{
-   background-color: yellow;
-   display: inline;
-}
    </style>
 
 </head>
