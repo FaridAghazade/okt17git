@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: gray;
+            padding: 10px;
+        }
+        .inner-div{
+            text-align: center;
+            padding: 10px;
+        }
+        nav{
+            background-color: black;
+            padding: 9px;
+        }
+        a{
+            color: white;
+            margin: 5px;
+            text-decoration: none;
+        }
+        .main-div{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            position: relative;
+        
+        }
+        .main-div::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(184, 108, 108, 0.507);
+        }
+     
+    </style>
+</head>
+<body>
+    <header>
+        <div class="inner-div">
+            <h1>header</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </header>
+    <nav >
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+    <main>
+        <div class="main-div">
+            <div>
+                <h1>column</h1>
+                <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Dignissimos obcaecati eius <br> tempora, eaque quas architecto nobis aperiam, <br> vitae et cupiditate accusamus beatae <br> nostrum odit mollitia placeat voluptatum, <br> laborum amet! Voluptate.</p>
+            </div>
+             <div>
+                <h1>column</h1>
+                <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Dignissimos obcaecati eius <br> tempora, eaque quas architecto nobis aperiam, <br> vitae et cupiditate accusamus beatae <br> nostrum odit mollitia placeat voluptatum, <br> laborum amet! Voluptate.</p>
+            </div>
+             <div>
+                <h1>column</h1>
+                <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Dignissimos obcaecati eius <br> tempora, eaque quas architecto nobis aperiam, <br> vitae et cupiditate accusamus beatae <br> nostrum odit mollitia placeat voluptatum, <br> laborum amet! Voluptate.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

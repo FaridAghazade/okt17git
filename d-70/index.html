@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/943d87bd3c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .red-div {
+            background-color: red;
+            height: 40px;
+        }
+
+        .content {
+            padding: 10px;
+            text-align: center;
+            color: whitesmoke;
+        }
+
+        .shop {
+            color: white;
+
+            border-bottom: 2px solid white;
+        }
+
+        .e {
+            font-size: 30px;
+        }
+
+        .div-elements {
+            display: flex;
+            align-items: center;
+            width: 300px;
+            justify-content: space-around;
+
+        }
+
+        .div-elements li {
+            list-style-type: none;
+        }
+
+        .shopping {
+            border: none;
+            color: white;
+            background-color: red;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        #input {
+            padding: 5px;
+            border: none;
+            background-color: rgb(234, 231, 231);
+        }
+
+        .icons {
+            font-size: 20px;
+
+        }
+
+        .con {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 30px;
+        }
+
+        nav {
+            height: 100px;
+            background-color: rgb(238, 237, 237);
+            box-shadow: 2px 1px 2px;
+        }
+
+        .blue {
+            border: none;
+            color: white;
+            background-color: rgb(21, 0, 255);
+            padding: 5px;
+            border-radius: 5px;
+            margin: 20px;
+            font-size: 20px;
+        }
+
+        .dell {
+            height: 100px;
+            width: 100px;
+        }
+
+        .red {
+            border: none;
+            color: white;
+            background-color: rgb(255, 0, 0);
+            padding: 5px;
+            border-radius: 5px;
+            margin: 20px;
+            font-size: 20px;
+        }
+        table,td,th{
+            border: 3px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            margin: 20px;
+            border-width: 4px;
+           
+        }
+        table{
+            width: 90%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red-div">
+        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="shop">shop now</span>
+        </p>
+    </div>
+    <nav>
+        <div class="con">
+            <h1 class="e">e-commerce</h1>
+            <ul class="div-elements">
+                <li>home</li>
+                <li>contact</li>
+                <li>about</li>
+                <li>sign up</li>
+            </ul>
+            <button class="shopping">shop</button>
+
+            <input type="text" name="" id="input" placeholder="what are you looking for">
+            <i class="fa-solid fa-magnifying-glass icons"></i>
+            <i class="fa-solid fa-basket-shopping icons"></i>
+            <i class="fa-solid fa-user icons"></i>
+            <p>FARID AGHAZADA</p>
+            <button class="shopping">log out</button>
+        </div>
+    </nav>
+    <main>
+        <button class="blue">new product</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>brand</th>
+                    <th>model</th>
+                    <th>category</th>
+                    <th>image</th>
+                    <th>price</th>
+                    <th>rating</th>
+                    <th>actions</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>dell</td>
+                    <td>xps 13</td>
+                    <td>undefined</td>
+                    <td><img class="dell"
+                            src="https://media.notebookinfo.de/produkt/44055/ffffff/dell-xps-13-plus-9320-n4dfj-2.jpg"
+                            alt=""></td>
+                    <td>2.999$</td>
+                    <td>undefined/5</td>
+                    <td><button class="red">edit</button> <button class="blue">delete</button></td>
+                </tr>
+                <tr>
+               <td>2</td>
+               <td>samsung</td>
+               <td>galaxy s23</td>
+               <td>undefined</td>
+               <td><img class="dell" src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_143710962?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402" alt=""></td>
+               <td>99,999$</td>
+               <td>undefined/5</td>
+               <td><button class="red">edit</button> <button class="blue">delete</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>bose</td>
+                    <td>quietcomfort 45</td>
+                    <td>undefined</td>
+                    <td><img class="dell" src="https://battle-skins.com/cdn/shop/files/BoseQC45Headphones_Black.jpg?v=1707546335&width=1946" alt=""></td>
+                    <td>329$</td>
+                    <td>undefined/5</td>
+                    <td><button class="red">edit</button> <button class="blue">delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+
+</html>
