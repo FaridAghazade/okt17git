@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let otagsayi = prompt("evinizde nece otag var")
+otagsayi = parseInt(otagsayi)
+
+let otag = []
+
+for (let i = 0; i < otagsayi; i++) {
+    let otagadi = prompt(`zehmet olmasa ${i+1}-otagi daxil edin`)
+    otag.push(otagadi.toUpperCase())   
+}
+
+alert("otaglarin siahisi :\n" + otag.join("\n"))
+
+ let dogru = confirm("siahi dogrudurmu")
+
+if (dogru) {
+    alert("tesekur edirem")
+} else {
+    alert("yeniden yoxlayin")
+}
+
+</script>
+</body>
+</html>
