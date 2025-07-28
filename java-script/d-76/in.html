@@ -12,20 +12,19 @@ otagsayi = parseInt(otagsayi)
 
 let otag = []
 
-for (let i = 0; i < otagsayi; i++) {
-    let otagadi = prompt(`zehmet olmasa ${i+1}-otagi daxil edin`)
-    otag.push(otagadi.toUpperCase())   
+for (let u = 0; u <otagsayi ; u++) {
+    let otagadi = prompt(`zehmet olmasa ${u +1}-otagi daxil edin`)
+    otag.push(otagadi.toUpperCase())
 }
-
-alert("otaglarin siahisi :\n" + otag.join("\n"))
-
- let dogru = confirm("siahi dogrudurmu")
+alert("otaglarin siahisi:\n" + otag.join("\n"))
+let dogru =confirm("siahi dogrudurmu")
 
 if (dogru) {
-    alert("tesekur edirem")
+    alert("Təşəkkürlər!")
 } else {
-    alert("yeniden yoxlayin")
+   alert("Zəhmət olmasa yenidən yoxlayın.") 
 }
+
 
 </script>
 </body>
