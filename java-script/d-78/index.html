@@ -6,19 +6,88 @@
     <title>Document</title>
 </head>
 <body>
+    <p class="f"></p>
     <script>
-        let mathScore = +prompt("senin 1-ci fenden aldigin giymet nedi")
-        let itScore   = +prompt("senin 2-ci fenden aldigin giymet nedi") 
 
-        if (mathScore > 50  && itScore > 50) {
-            console.log("siz imtahanan kecdiz");
-            alert("siz imtahanan kecdiz")
-            
-        } else {
-            console.log("siz imtahanan kecmediz");
-            alert("siz imtahanan kecmediz")
-            
-        }
+function salamVer(ad){
+console.log(`salam ${ad} !`);
+}
+salamVer("ferid")
+
+function Cəmtap(x,y){
+    console.log(x+y);
+    
+}
+
+Cəmtap(5,4)
+
+function kvadrad(a,b){
+    let kv =  a ** b 
+   return kv
+}
+
+
+ let ff =  kvadrad(3,2)
+ console.log(ff);
+
+ function max(a,b){
+   let m = Math.max(a,b)
+   return m
+   
+ }
+console.log(max(5,3));
+
+
+ function EveOrOdd(num){
+    if (num % 2 === 0 ){
+        console.log("cut");
+        
+    }
+ }
+ 
+ function factorial (num){
+    if(num == 0 || num == 1)
+    return 1
+else {
+    return num * factorial(num - 1)
+}
+
+ }
+ 
+ console.log(factorial(5));
+
+ function factorial (num){
+    if(num == 0 || num == 1)
+    return 1
+else {
+    return num * factorial(num - 1)
+}
+
+ }
+ 
+ console.log(factorial(6));
+
+
+ 
+function word(nem){
+return  nem
+.split(" ")
+}
+
+
+function capitalizeWords(str) {
+  return str
+    .split(" ") // sözlərə ayırır
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // ilk hərfi böyüdür
+    .join(" "); // yenidən cümlə qurur
+}
+
+// Test
+console.log(capitalizeWords("salam dünya")); // Salam Dünya
+console.log(capitalizeWords("javascript öyrənirəm")); // Javascript Öyrənirəm
+
+
+
     
        
     </script>
