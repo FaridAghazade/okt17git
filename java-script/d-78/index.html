@@ -69,22 +69,6 @@ else {
 
 
  
-function word(nem){
-return  nem
-.split(" ")
-}
-
-
-function capitalizeWords(str) {
-  return str
-    .split(" ") // sözlərə ayırır
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // ilk hərfi böyüdür
-    .join(" "); // yenidən cümlə qurur
-}
-
-// Test
-console.log(capitalizeWords("salam dünya")); // Salam Dünya
-console.log(capitalizeWords("javascript öyrənirəm")); // Javascript Öyrənirəm
 
 
 
