@@ -7,23 +7,39 @@
 </head>
 <body>
     <script>
-        let student = {
-            name : "ferid",
-            age:"12",
-            grade:"10"
+  
+
+
+    function cem(eded1,eded2) {
+        return eded1+eded2
+    }
+
+
+    
+let student  = {
+    name:"ferid",
+    grades:[90,80,70,100],
+
+
+
+    getAvarage  :   function () {
+           
+        if (this.grades.length === 0 ) {
+            return 0 
         }
-        console.log(student);
 
-        let de = student.grade = 15
-        console.log(de);
-        console.log(student);
+        let end = this.grades.reduce(cem,0)
+        let ed = end / this.grades.length
+    },
 
-        student.school = "puste-blume grundschule"
-        console.log(student);
+    }  
+    console.log(student.getAvarage());
+    
         
-        
-        
-        
+
+
+            
+
     </script>
 </body>
 </html>
