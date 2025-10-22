@@ -1,46 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-  
-
-
-    function cem(eded1,eded2) {
-        return eded1+eded2
-    }
-
-
-    
-let student  = {
-    name:"ferid",
-    grades:[90,80,70,100],
 
 
 
-    getAvarage  :   function () {
-           
-        if (this.grades.length === 0 ) {
-            return 0 
-        }
-
-        let end = this.grades.reduce(cem,0)
-        let ed = end / this.grades.length
-        return ed
-    },
-
-    }  
-    console.log(student.getAvarage());
-    
-        
+        //     function cem(eded1,eded2) {
+        //         return eded1+eded2
+        //     }
 
 
+
+        // let student  = {
+        //     name:"ferid",
+        //     grades:[90,80,70,100],
+
+
+
+        //     getAvarage  :   function () {
+
+        //         if (this.grades.length === 0 ) {
+        //             return 0 
+        //         }
+
+        //         let end = this.grades.reduce(cem,0)
+        //         let ed = end / this.grades.length
+        //         return ed
+        //     },
+
+        //     }  
+        //     console.log(student.getAvarage());
+
+
+
+        // let player = {
+        //     name: "ferid",
+        //     level:12,
+        //     nlevel:function(){
+        //         player.level++
+        //     }
+
+
+
+        // }
+        // player.nlevel()
+        // console.log(player);
+
+
+
+
+        let student = {
+            firstName: "Afsana",
+            lastName: "Talibova",
+            set(ad1, ad2) {
+                this.firstName = ad1
+                this.lastName = ad2
+            },
+
+
+            get fullName() {
+                return this.firstName + " " + this.lastName
+            },
+
+        };
+
+        student.set("Lale", "huseynova")
+        console.log(student.fullName);
+
+
+
+        let product = {
+            name: "Book",
+            priceUSD: 10,
+
+               calback(){
+                 return this.priceUSD * 1.7
+                
+               }
             
+        }
+        console.log(`${product.priceUSD} -bu ${product.calback()} manatdir.`);
+        
 
     </script>
 </body>
+
 </html>
